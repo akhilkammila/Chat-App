@@ -1,0 +1,30 @@
+body{
+    margin: 0 auto;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+    width:90%;
+    max-width:1200px;
+}
+
+#message-container{
+    border: 1px solid black;
+    flex-grow: 1;
+    overflow-y: auto;
+
+    margin: 20px;
+}
+
+#message-container div{
+    padding: 5px;
+    background-color: #CCC;
+}
+
+#message-container div:nth-child(2n){
+    background-color:#ffffff;
+}
+
+#form{
+    margin:20px;
+}
